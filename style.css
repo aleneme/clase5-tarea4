@@ -1,0 +1,93 @@
+body {
+  font-family:  Georgia, Times, 'Times New Roman', serif;
+  background-color: #659EBC;
+}
+
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+
+
+h2 {
+  font-size: 5rem;
+  margin: 0;
+  color: whitesmoke
+}
+
+ol {
+ flex-basis: 55%;
+  justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+ list-style: none;
+ 
+  margin: 1rem;
+  padding: 1rem;
+
+}
+
+li {
+  flex-basis: 20%;
+  border: 2px solid green;
+  text-align: center;
+  padding: 1.5rem;
+  margin: 0.5rem;
+  color: black;
+  background: #FBEEC1;
+  font-weight: bold;
+  font-size: 1.5rem;
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+  justify-content: flex-end;
+  align-self: auto;
+}
+
+button {
+  background-color: #DAAD86;
+  border: none;
+  color: whitesmoke;
+  padding: 1rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  outline: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: black;
+  border-radius:10px;
+  box-shadow:0  0.3rem  rgba(255, 255, 255, 0.65);
+}
+
+button:hover{
+  background-color:  black;
+  color: #DAAD86;
+}
+
+button:active {
+
+  transform: translate(0, 0.1rem);
+  box-shadow: 0  0.1rem  rgba(255, 255, 255, 0.65);
+  
+  }
+
+.calculo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.mensajes-a-usuario {
+ align-self: center;
+ margin: 1rem;
+ font-size: 2rem;
+  color: whitesmoke
+}
